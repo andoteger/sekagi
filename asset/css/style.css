@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+nav {
+    background: rgb(189, 187, 187);
+}
+
+/* label */
+.container.populer small {
+    border: 5px solid #f4f4f7;
+    font-weight: bold;
+}
+/* label */
+
+
+/* galeri */
+.container.galeri .row .col ul {
+    max-height: 250px;
+    overflow: hidden;
+}
+/* galeri */
+
+
+/* new post update */
+.container.post ul li {
+    display: inline-block;
+    max-width: 134px;
+}
+
+.container.post ul li p {
+    max-height: 50px;
+    overflow: hidden;
+}
+
+.container.post ul li img {
+    border-radius: 5%;
+    max-width: 134px;
+    max-height: 185px;
+}
+
+/* new post update */
+
+/* footer */
+.footer .copyright small {
+    height: 50px;
+}
+
+/* footer */
+
+
+/* MOBILE VIEWS */
+@media (max-width:400px) {
+    .container.post .row .col {
+        text-align: center;
+    }
+}
+/* MOBILE VIEWS */
