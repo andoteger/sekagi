@@ -14,69 +14,18 @@
         <div class="col">
           <ul>
 
-            <li class="vid">
-              <img src="asset/img/rezero.jpg" alt="">
-              <div class="judul">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, fuga!</p>
-                
-              </div>
-            </li>
+            <?php foreach ($popular as $p) { ?>
 
+            <a href="">
             <li class="vid">
-              <img src="asset/img/kingdom s3.jpg" alt="">
+              <img src="asset/img/<?php echo $p->img?>" alt="">
               <div class="judul">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, fuga!</p>
-                
+                <p><?php echo $p->judul?></p>
               </div>
             </li>
-
-            <li class="vid">
-              <img src="asset/img/onepiece.jpg" alt="">
-              <div class="judul">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, fuga!</p>
-                
-              </div>
-            </li>
-
-            <li class="vid">
-              <img src="asset/img/yahari.jpg" alt="">
-              <div class="judul">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, fuga!</p>
-                
-              </div>
-            </li>
-
-            <li class="vid">
-              <img src="asset/img/fruitbasket.jpg" alt="">
-              <div class="judul">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, fuga!</p>
-                
-              </div>
-            </li>
-
-            <li class="vid">
-              <img src="asset/img/Toaru_Kagaku_no_Railgun_T.jpg" alt="">
-              <div class="judul">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, fuga!</p>
-                
-              </div>
-            </li>
-
-            <li class="vid">
-              <img src="asset/img/Detective_Conan.jpg" alt="">
-              <div class="judul">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, fuga!</p>
-                
-              </div>
-            </li>
-
-            <li class="vid">
-              <img src="asset/img/Enen_no_Shouboutai.jpg" alt="">
-              <div class="judul">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, fuga!</p>
-                
-              </div>
-            </li>
+            </a>
+            
+            <?php } ?>
 
           </ul>
         </div>
@@ -98,85 +47,18 @@
         <div class="col">
           <ul>
 
+            <?php foreach ($post as $po) { ?>
+            <a href="<?php echo $po->link?>">
             <li class="vid">
-              <img src="asset/img/2.jpg" alt="">
+              <img src="asset/img/<?php echo $po->img?>" alt="">
               <div class="judul">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, fuga!</p>
+                <p><?php echo $po->judul?></p>
+                <p>Episode <?php echo $po->eps?></p>
                 
               </div>
             </li>
-
-            <li class="vid">
-              <img src="asset/img/2.jpg" alt="">
-              <div class="judul">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, fuga!</p>
-                
-              </div>
-            </li>
-
-            <li class="vid">
-              <img src="asset/img/2.jpg" alt="">
-              <div class="judul">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, fuga!</p>
-                
-              </div>
-            </li>
-
-            <li class="vid">
-              <img src="asset/img/2.jpg" alt="">
-              <div class="judul">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, fuga!</p>
-                
-              </div>
-            </li>
-
-            <li class="vid">
-              <img src="asset/img/2.jpg" alt="">
-              <div class="judul">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, fuga!</p>
-                
-              </div>
-            </li>
-
-            <li class="vid">
-              <img src="asset/img/2.jpg" alt="">
-              <div class="judul">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, fuga!</p>
-                
-              </div>
-            </li>
-
-            <li class="vid">
-              <img src="asset/img/2.jpg" alt="">
-              <div class="judul">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, fuga!</p>
-                
-              </div>
-            </li>
-
-            <li class="vid">
-              <img src="asset/img/2.jpg" alt="">
-              <div class="judul">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, fuga!</p>
-                
-              </div>
-            </li>
-
-            <li class="vid">
-              <img src="asset/img/2.jpg" alt="">
-              <div class="judul">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, fuga!</p>
-                
-              </div>
-            </li>
-
-            <li class="vid">
-              <img src="asset/img/2.jpg" alt="">
-              <div class="judul">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, fuga!</p>
-                
-              </div>
-            </li>
+            </a>
+            <?php } ?>
 
           </ul>
         </div>

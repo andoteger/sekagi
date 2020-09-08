@@ -22,7 +22,7 @@ nav {
 
 /* galeri */
 .container.galeri .row .col ul {
-    max-height: 250px;
+    max-height: 235px;
     overflow: hidden;
 }
 /* galeri */
@@ -34,8 +34,15 @@ nav {
     max-width: 134px;
 }
 
+.container.post  a{
+    text-decoration: none;
+    color: black;
+}
+
 .container.post ul li p {
     max-height: 50px;
+    min-height: 48px;
+    margin-bottom: 0;
     overflow: hidden;
 }
 
@@ -51,8 +58,13 @@ nav {
 .footer .copyright small {
     height: 50px;
 }
-
 /* footer */
+
+/* DEVELOPER */
+.container.form  {
+    padding-bottom: 200px;
+}
+/* DEVELOPER */
 
 
 /* MOBILE VIEWS */
